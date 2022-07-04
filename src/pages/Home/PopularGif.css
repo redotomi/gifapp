@@ -1,0 +1,14 @@
+.gif-of {
+  text-decoration: none;
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+li.popular-gif {
+  list-style: none;
+}
+
+.gif-list {
+  padding-left: 0px;
+}

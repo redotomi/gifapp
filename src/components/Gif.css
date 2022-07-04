@@ -1,0 +1,18 @@
+.Gif {
+  max-width: 300px;
+  color: #eee;
+  text-decoration: none;
+  border: 1px solid #eee;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  padding: 10px;
+  height: fit-content;
+}
+
+.gif-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
