@@ -2,7 +2,7 @@ const apiKey = 'EkEpKLE5FbXgedVd8vdfpej6JAtnJGdO&'
 
 
 export default async function getGifs({ keyword = 'princess+mononoke' } = {}) {
-  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}q=${keyword}&limit=9&offset=0&rating=g&lang=en`
+  const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}q=${keyword}&limit=12&offset=0&rating=g&lang=en`
 
   const res = await fetch(apiURL);
   const response = await res.json();

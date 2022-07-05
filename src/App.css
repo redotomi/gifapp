@@ -1,13 +1,16 @@
 .App {
   text-align: center;
 }
-.title {
+
+.title-container {
   display: flex;
+  justify-content: center;
+}
+
+.title {
   font-weight: bold;
   font-size: 3.5em;
-  background-color: #001220;
   color: #e14457;
-  justify-content: center;
   margin: 0px;
   padding-top: 50px;
   text-decoration: none;
